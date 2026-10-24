@@ -18,4 +18,4 @@ Download the latest installer or portable ZIP from the [Releases page](https://g
 - **Steel-Portable-Windows.zip** — Portable application
 - **SHA256SUMS.txt** — SHA-256 checksums for verifying downloads
 
-The application source code is maintained privately in the [Steel source repository](https://github.com/MrRenntech/Steel).
+The application source code is maintained in a separate private repository.
