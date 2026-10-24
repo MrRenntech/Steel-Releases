@@ -1,4 +1,12 @@
-# Steel — Windows Releases
+<p align="center"><img src="assets/github-banner.svg" alt="STEEL FOR WINDOWS" width="100%" /></p>
+
+<h1 align="center">STEEL FOR WINDOWS</h1>
+
+<p align="center">Official Steel installers, portable builds, and checksums, published separately from source.</p>
+
+<p align="center"><sub>Windows · Installer · SHA-256</sub></p>
+
+---
 
 This repository contains official compiled Windows releases of Steel.
 
