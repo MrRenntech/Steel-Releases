@@ -1,21 +1,33 @@
-<p align="center"><img src="assets/github-banner.svg" alt="STEEL FOR WINDOWS" width="100%" /></p>
+<p align="center"><img src="assets/github-banner.svg" alt="Steel for Windows" width="100%" /></p>
 
-<h1 align="center">STEEL FOR WINDOWS</h1>
+# Steel for Windows
 
-<p align="center">Official Steel installers, portable builds, and checksums, published separately from source.</p>
+Official installers, portable builds, and checksums for Steel. This repository
+contains release files only; the source remains in the private
+[Steel repository](https://github.com/MrRenntech/Steel).
 
-<p align="center"><sub>Windows · Installer · SHA-256</sub></p>
+## Latest stable release
 
----
+**Steel 7.4.0** is the latest stable release. Download from the
+[v7.4.0 release page](https://github.com/MrRenntech/Steel-Releases/releases/tag/v7.4.0):
 
-This repository contains official compiled Windows releases of Steel.
+- `Steel-Setup.exe` — Windows installer
+- `Steel-Portable-Windows.zip` — portable application
+- `SHA256SUMS.txt` — checksums for verifying the downloads
 
-## Downloads
+The 7.5.0 work is still in development and is not available as a stable
+download. Follow the [Releases page](https://github.com/MrRenntech/Steel-Releases/releases)
+for published builds.
 
-Download the latest installer or portable ZIP from the [Releases page](https://github.com/MrRenntech/Steel-Releases/releases).
+## Verification
 
-- **Steel-Setup.exe** — Windows installer
-- **Steel-Portable-Windows.zip** — Portable application
-- **SHA256SUMS.txt** — SHA-256 checksums for verifying downloads
+Compare the SHA-256 hash of a downloaded file with the matching entry in
+`SHA256SUMS.txt`. The checksum detects file corruption or mismatch; it is not a
+publisher digital signature. Installers may request Windows administrator
+approval.
 
-The application source code is maintained in a separate private repository.
+Steel is a privacy-first assistant that can work with local models and local
+speech recognition. Optional online features are controlled in the app's
+settings and may send the information needed for a user-requested request to
+the selected service. Read the source repository's privacy notes before
+enabling online providers.
